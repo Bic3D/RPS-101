@@ -1,0 +1,11 @@
+{
+    "knownKeys": [
+        "ROCK",
+        "PAPER",
+        "SCISSORS"
+    ],
+    "level": 0,
+    "PAPER-PAPER": 2,
+    "SCISSORS-SCISSORS": 2,
+    "ROCK-ROCK": 2
+}

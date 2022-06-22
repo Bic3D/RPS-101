@@ -21,3 +21,13 @@ The JSON is organized like that:
 ```
 
 There is a simple python script called `example.py` that shows a way to use this JSON file, in a very simple example.
+
+## The game
+I coded a game to learn to play Rock Paper Scissors, that helps to learn and memorize all of the different symbols.
+It is far from perfection, but it works, kinda.
+
+The game is located in the file `learn.py` and uses a file called `gameData.json` to store the data, if you want to save it and use it anywhere. It is already created if you run the game for the first time, and delete it if you want to reset your game.
+
+Here is a screenshot of the game running in Powershell:
+
+![img](screenshot.png)
