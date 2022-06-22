@@ -22,13 +22,12 @@ def getWinner(a, b):
 n = 0
 while True:
     n += 1
-    a = input("\nManche {}:\nChoisissez un signe: ".format(n)).upper()
+    a = input("\Round {}:\Choose a symbol: ".format(n)).upper()
     b = random.choice(list(dict.keys()))
-    b = input("Choisissez un signe: ".format(n)).upper()
     print(a+'\n'+b)
     winner, sentence = getWinner(a, b)
     if winner == a:
-        print("Gagné! **********************")
+        print("You win! ***********************")
     else:
-        print("Perdu... xxxxxxxxxxxxxxxxxxxx")
+        print("You lose... xxxxxxxxxxxxxxxxxxxx")
     print(sentence)
